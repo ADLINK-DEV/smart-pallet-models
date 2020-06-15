@@ -1,0 +1,34 @@
+{
+	"typedefinition": "PackageInfo",
+	"tags": [{
+			"name": "packageId",
+			"description": "unique identifier for the package",
+			"kind": "STRING",
+			"unit": "N/A"
+		},
+		{
+			"name": "height",
+			"description": "height of the package",
+			"kind": "FLOAT32",
+			"unit": "cm"
+		},
+		{
+			"name": "width",
+			"description": "width of the package",
+			"kind": "FLOAT32",
+			"unit": "cm"
+		},
+		{
+			"name": "depth",
+			"description": "depth of the package",
+			"kind": "FLOAT32",
+			"unit": "cm"
+		},
+		{
+			"name": "destination",
+			"description": "where the package is headed",
+			"kind": "STRING_SEQ",
+			"unit": "address"
+		}
+	]
+}

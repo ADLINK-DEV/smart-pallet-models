@@ -1,0 +1,21 @@
+{
+	"name": "PalletComplete",
+	"context": "com.adlinktech.smartpallet.pallet",
+	"qosProfile": "event",
+	"version": "v1.0",
+	"description": "This event is generated when all packages from the Manifest are on the pallet.",
+	"tags": [{
+			"name": "pallet",
+			"description": "Data about the pallet that is complete",
+			"kind": "NVP_SEQ",
+			"typedefinition": "PalletStatus",
+			"unit": "n/a"
+		},
+		{
+			"name": "timestamp",
+			"description": "When the event was detected",
+			"kind": "STRING",
+			"unit": "n/a"
+		}
+	]
+}

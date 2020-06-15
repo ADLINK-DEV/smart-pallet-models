@@ -1,0 +1,16 @@
+{
+  "typedefinition": "PackageStatus",
+  "tags": [{
+      "name": "packageId",
+      "description": "ID of a Package",
+      "kind": "STRING",
+      "unit": "n/a"
+    },
+    {
+      "name": "packageStatus",
+      "description": "the status of a package",
+      "kind": "STRING",
+      "unit": "on pallet, on wrong pallet, removed from pallet, not yet seen, shipped"
+    }
+  ]
+}

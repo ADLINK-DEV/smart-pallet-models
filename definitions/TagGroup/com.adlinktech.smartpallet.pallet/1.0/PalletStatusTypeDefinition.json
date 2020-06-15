@@ -1,0 +1,35 @@
+{
+  "typedefinition": "PalletStatus",
+  "tags": [
+    {
+      "name": "palletId",
+      "description": "ID of a Pallet",
+      "kind": "STRING",
+      "unit": "n/a"
+    },
+    {
+      "name": "loadingAreaId",
+      "description": "ID of the loadingArea",
+      "kind": "STRING",
+      "unit": "n/a"
+    },
+    {
+      "name": "palletManifestId",
+      "description": "ID of the PalletManifest",
+      "kind": "STRING",
+      "unit": "n/a"
+    },
+    {
+      "name": "palletStatus",
+      "description": "the status of a pallet",
+      "kind": "STRING",
+      "unit": "Waiting,Initialized,Open,Complete,Closed"
+    },
+    {
+      "name": "palletErrorStatus",
+      "description": "The error status of a pallet",
+      "kind": "STRING",
+      "unit": "None,HasWrongPackets,ManifestNotPresent"
+    }
+ ]
+}

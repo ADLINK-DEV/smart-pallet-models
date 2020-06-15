@@ -1,0 +1,21 @@
+{
+	"name": "PackageWithoutOpenPallet",
+	"context": "com.adlinktech.smartpallet.package",
+	"qosProfile": "event",
+	"version": "v1.0",
+	"description": "This event is generated when a package is seen, but no pallet has status of Open in this location",
+	"tags": [{
+			"name": "package",
+			"description": "Data about the package",
+			"kind": "NVP_SEQ",
+			"typedefinition": "PackageStatus",
+			"unit": "n/a"
+		},
+		{
+			"name": "timestamp",
+			"description": "When the package arrived at a loading area without a (known) pallet",
+			"kind": "STRING",
+			"unit": "n/a"
+		}
+	]
+}

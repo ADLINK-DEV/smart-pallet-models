@@ -1,0 +1,8 @@
+{
+    "name": "PalletManifest",
+    "context": "com.adlinktech.smartpallet.pallet",
+    "qosProfile": "event",
+    "version": "v1.0",
+    "description": "ADLINK Edge Smart Pallet PalletManifest TagGroup",
+    "typedefinition" : "Manifest"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "PalletNotOpen",
+  "context": "com.adlinktech.smartpallet.pallet",
+  "qosProfile": "event",
+  "version": "v1.0",
+  "description": "This event is generated when packages come in when the Pallet is not in the correct state.",
+  "tags": [
+    {
+      "name": "timestamp",
+      "description": "When the event was detected",
+      "kind": "STRING",
+      "unit": "n/a"
+    },
+    {
+      "name": "packageId",
+      "description": "What package came in",
+      "kind": "STRING",
+      "unit": "n/a"
+    }
+  ]
+}
