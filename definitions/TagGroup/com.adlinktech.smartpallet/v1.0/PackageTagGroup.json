@@ -1,0 +1,22 @@
+{
+	"name": "Package",
+	"context": "com.adlinktech.smartpallet",
+	"qosProfile": "state",
+	"version": "v1.0",
+	"description": "Defines a package within the ADLINK Edge Smart Pallet system",
+    "tags":
+    [
+        {
+		    "name": "packageId",
+		    "description": "The ID of the package",
+		    "kind": "STRING",
+		    "unit": "n/a"
+        },
+        {
+		    "name": "palletId",
+		    "description": "The ID of the pallet the package is currently on",
+		    "kind": "STRING",
+		    "unit": "n/a"
+        }
+    ]
+}

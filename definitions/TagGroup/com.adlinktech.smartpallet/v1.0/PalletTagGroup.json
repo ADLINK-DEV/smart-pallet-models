@@ -1,0 +1,22 @@
+{
+	"name": "Pallet",
+	"context": "com.adlinktech.smartpallet",
+	"qosProfile": "state",
+	"version": "v1.0",
+	"description": "The state of a pallet within the ADLINK Edge Smart Pallet system",
+    "tags":
+    [
+		{
+			"name": "palletId",
+			"description": "ID of the pallet",
+			"kind": "STRING",
+			"unit": "n/a"
+		},
+        {
+			"name": "loadingAreaId",
+			"description": "Where the pallet is",
+			"kind": "STRING",
+			"unit": "n/a"
+		}
+	]
+}
