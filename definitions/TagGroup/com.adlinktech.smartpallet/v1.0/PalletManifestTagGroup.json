@@ -26,6 +26,12 @@
 				"unit": "n/a"
 			},
 			{
+				"name": "name",
+				"description": "Human readable name for this manifest",
+				"kind": "STRING",
+				"unit": "n/a"
+			},
+			{
 				"name": "description",
 				"description": "Human readable description of what this manifest is",
 				"kind": "STRING",
