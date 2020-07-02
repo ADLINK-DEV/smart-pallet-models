@@ -43,7 +43,14 @@
 				"kind": "NVP_SEQ",
 				"typedefinition": "PackageInfo",
 				"unit": "dimensions:1"
-			}
+			},
+			{
+			  "name": "timestamp",
+			  "description": "Time when pallet manifest was last updated",
+			  "kind": "NVP_SEQ",
+			  "typedefinition" : "DataRiverTime",
+			  "unit": "Time"
+			 }
 		]
 	},
 	{
@@ -55,6 +62,24 @@
 				"description": "ID of the package",
 				"kind": "STRING",
 				"unit": "N/A"
+			}
+		]
+	},
+	{
+		"typedefinition": "DataRiverTime",
+		"tags":
+		[
+			{
+				 "name": "seconds",
+			 	"description": "Seconds since the Unix epoch",
+			 	"kind": "INT64",
+			 	"unit": "seconds"
+			},
+			{
+				"name": "nanoseconds",
+				"description": "Fractional nanoseconds",
+				"kind": "INT32",
+				"unit": "nanoseconds"
 			}
 		]
 	}
