@@ -1,22 +1,23 @@
 {
-	"name": "LoadingArea",
-	"context": "com.adlinktech.smartpallet",
-	"qosProfile": "state",
-	"version": "v1.0",
-	"description": "The state of a loading area within the ADLINK Edge Smart Pallet system",
-	"tags":
-	[
-		{
-			"name": "loadingAreaId",
-			"description": "ID of the loading area",
-			"kind": "STRING",
-			"unit": "n/a"
-		},
-		{
-			"name": "name",
-			"description": "Human readable name of the loading area",
-			"kind": "STRING",
-			"unit": "n/a"
-		}
-	]
+   "name": "LoadingArea",
+   "context": "com.adlinktech.smartpallet",
+   "qosProfile": "state",
+   "version": "v1.0",
+   "description": "The state of a loading area within the ADLINK Edge Smart Pallet system",
+   "tags":
+   [
+      {
+         "name": "loadingAreaId",
+         "description": "ID of the loading area",
+         "kind": "STRING",
+         "unit": "n/a"
+      },
+      {
+         "name": "name",
+         "description": "Human readable name of the loading area",
+         "kind": "STRING",
+         "unit": "n/a"
+      }
+   ]
 }
+
