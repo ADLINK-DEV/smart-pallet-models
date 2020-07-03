@@ -14,18 +14,25 @@
 		    	"unit": "n/a"
         	},
         	{
-		   	 "name": "palletId",
+		   	"name": "palletId",
 		    	"description": "The ID of the pallet the package is currently on",
 		    	"kind": "STRING",
 		    	"unit": "n/a"
         	},
 			{
-			  "name": "timestamp",
-			  "description": "Time when package state was last updated",
+			  "name": "added",
+			  "description": "The time the package was last added to the pallet",
 			  "kind": "NVP_SEQ",
 			  "typedefinition" : "DataRiverTime",
 			  "unit": "Time"
-			 }
+			},
+			{
+			  "name": "lastObserved",
+			  "description": "The time the package was last observed on the pallet",
+			  "kind": "NVP_SEQ",
+			  "typedefinition" : "DataRiverTime",
+			  "unit": "Time"
+			}
     	]
 	},
 	{

@@ -20,12 +20,12 @@
 				"unit": "n/a"
 			},
 			{
-			  "name": "timestamp",
-			  "description": "Time when pallet state was last updated",
+			  "name": "added",
+			  "description": "The time the pallet was added to the loading area",
 			  "kind": "NVP_SEQ",
 			  "typedefinition" : "DataRiverTime",
 			  "unit": "Time"
-			 }
+			}
 		]
 	},
 	{

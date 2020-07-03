@@ -45,12 +45,12 @@
 				"unit": "dimensions:1"
 			},
 			{
-			  "name": "timestamp",
-			  "description": "Time when pallet manifest was last updated",
+			  "name": "added",
+			  "description": "The time the manifest was added to the system",
 			  "kind": "NVP_SEQ",
 			  "typedefinition" : "DataRiverTime",
 			  "unit": "Time"
-			 }
+			}
 		]
 	},
 	{
