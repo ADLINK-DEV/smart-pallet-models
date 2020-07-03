@@ -45,11 +45,11 @@
 				"unit": "dimensions:1"
 			},
 			{
-			  "name": "added",
-			  "description": "The time the manifest was added to the system",
-			  "kind": "NVP_SEQ",
-			  "typedefinition" : "DataRiverTime",
-			  "unit": "Time"
+				"name": "added",
+				"description": "The time the manifest was added to the system",
+				"kind": "NVP_SEQ",
+				"typedefinition" : "DataRiverTime",
+				"unit": "Time"
 			}
 		]
 	},
@@ -70,7 +70,7 @@
 		"tags":
 		[
 			{
-				 "name": "seconds",
+				"name": "seconds",
 			 	"description": "Seconds since the Unix epoch",
 			 	"kind": "INT64",
 			 	"unit": "seconds"

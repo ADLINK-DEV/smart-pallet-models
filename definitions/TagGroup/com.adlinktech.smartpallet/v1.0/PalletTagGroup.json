@@ -20,11 +20,11 @@
 				"unit": "n/a"
 			},
 			{
-			  "name": "added",
-			  "description": "The time the pallet was added to the loading area",
-			  "kind": "NVP_SEQ",
-			  "typedefinition" : "DataRiverTime",
-			  "unit": "Time"
+				"name": "added",
+				"description": "The time the pallet was added to the loading area",
+				"kind": "NVP_SEQ",
+				"typedefinition" : "DataRiverTime",
+				"unit": "Time"
 			}
 		]
 	},

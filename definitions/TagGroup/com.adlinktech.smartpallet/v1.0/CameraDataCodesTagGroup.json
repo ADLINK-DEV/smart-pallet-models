@@ -5,7 +5,8 @@
         "qosProfile":"telemetry",
         "version":"v1.0",
         "description":"Collection of DataMatrix codes published by vision app",
-        "tags":[
+        "tags":
+        [
             {
                 "name":"host",
                 "description":"Camera/Vision App host Identifier",
@@ -23,7 +24,8 @@
     },
     {
         "typedefinition": "DataCode",
-        "tags": [
+        "tags":
+        [
             {
                 "name":"id",
                 "description":"DataMatrix code ID",
