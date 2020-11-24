@@ -32,22 +32,6 @@
             "kind": "NVP_SEQ",
             "typedefinition" : "DataRiverTime",
             "unit": "Time"
-         },
-         {
-            "name": "packageCoordinates",
-            "description": "The last observed coordinates of the package on the pallet",
-            "kind": "NVP_SEQ",
-            "typedefinition" : "Coordinates",
-            "optional": true,
-            "unit": "Coordinates"
-         },
-         {
-            "name": "barcodeCoordinates",
-            "description": "The last observed coordinates of the package barcode on the pallet",
-            "kind": "NVP_SEQ",
-            "typedefinition" : "Coordinates",
-            "optional": true,
-            "unit": "Coordinates"
          }
       ]
    },
@@ -68,36 +52,6 @@
             "unit": "nanoseconds"
          }
       ]
-   },
-   {
-     "typedefinition": "Coordinates",
-     "tags":
-     [
-         {
-            "name":"x1",
-            "description":"Top Left X Coordinate (% from 0,0)",
-            "kind":"FLOAT64",
-            "unit":"Percentage"
-         },
-         {
-            "name":"y1",
-            "description":"Top Left Y Coordinate (% from 0,0)",
-            "kind":"FLOAT64",
-            "unit":"Percentage"
-         },
-         {
-            "name":"x2",
-            "description":"Bottom Right X Coordinate (% from 0,0)",
-            "kind":"FLOAT64",
-            "unit":"Percentage"
-         },
-         {
-            "name":"y2",
-            "description":"Bottom Right Y Coordinate (% from 0,0)",
-            "kind":"FLOAT64",
-            "unit":"Percentage"
-         }
-     ]
    }
 ]
 
