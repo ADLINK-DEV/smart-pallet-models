@@ -14,6 +14,13 @@
             "unit": "n/a"
          },
          {
+            "name": "barcode",
+            "description": "The barcode of the package",
+            "kind": "STRING",
+            "optional": true,
+            "unit": "n/a"
+         },         
+         {
             "name": "palletId",
             "description": "The ID of the pallet the package is currently on",
             "kind": "STRING",
