@@ -10,7 +10,7 @@
          {
             "name": "packageId",
             "description": "The ID of the package",
-            "kind": "STRING",
+            "kind": "UINT32",
             "unit": "n/a"
          },
          {
