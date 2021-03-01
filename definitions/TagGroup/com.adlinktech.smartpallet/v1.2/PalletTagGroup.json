@@ -3,7 +3,7 @@
        "name": "Pallet",
        "context": "com.adlinktech.smartpallet",
        "qosProfile": "state",
-       "version": "v1.1",
+       "version": "v1.2",
        "description": "The state of a pallet within the ADLINK Edge Smart Pallet system",
        "tags":
        [

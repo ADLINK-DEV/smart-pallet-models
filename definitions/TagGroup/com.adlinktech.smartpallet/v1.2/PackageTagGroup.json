@@ -3,7 +3,7 @@
        "name": "Package",
        "context": "com.adlinktech.smartpallet",
        "qosProfile": "state",
-       "version": "v1.1",
+       "version": "v1.2",
        "description": "Defines a package within the ADLINK Edge Smart Pallet system",
        "tags":
        [
