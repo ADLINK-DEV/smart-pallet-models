@@ -40,9 +40,10 @@
          {
             "name": "packages",
             "description": "List of packages that should be on the pallet",
-            "kind": "NVP_SEQ",
+            "kind": "MULTI_DIM_NVP",
+            "dimensions":1,
             "typedefinition": "PackageInfo",
-            "unit": "dimensions:1"
+            "unit": "n/a"
          },
          {
             "name": "added",
@@ -84,4 +85,3 @@
       ]
    }
 ]
-
