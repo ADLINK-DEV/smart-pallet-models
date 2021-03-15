@@ -59,9 +59,10 @@
       "tags":
       [
          {
-            "name": "packageId",
-            "description": "ID of the package",
+            "name": "barcode",
+            "description": "The barcode of the package",
             "kind": "STRING",
+            "optional": true,
             "unit": "N/A"
          }
       ]
