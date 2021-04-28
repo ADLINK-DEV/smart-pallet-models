@@ -3,7 +3,7 @@
       "name": "PalletManifest",
       "context": "com.adlinktech.smartpallet",
       "qosProfile": "state",
-      "version": "v1.1",
+      "version": "2.0.0",
       "description": "Defines a pallet manifest within the ADLINK Edge Smart Pallet system",
       "tags":
       [
