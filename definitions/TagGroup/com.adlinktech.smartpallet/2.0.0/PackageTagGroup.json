@@ -1,27 +1,34 @@
 [
    {
-      "name": "Pallet",
+      "name": "Package",
       "context": "com.adlinktech.smartpallet",
       "qosProfile": "state",
-      "version": "v1.1",
-      "description": "The state of a pallet within the ADLINK Edge Smart Pallet system",
+      "version": "2.0.0",
+      "description": "Defines a package within the ADLINK Edge Smart Pallet system",
       "tags":
       [
          {
-            "name": "palletId",
-            "description": "ID of the pallet",
+            "name": "packageId",
+            "description": "The ID of the package",
             "kind": "STRING",
             "unit": "n/a"
          },
          {
-            "name": "loadingAreaId",
-            "description": "Where the pallet is",
+            "name": "palletId",
+            "description": "The ID of the pallet the package is currently on",
             "kind": "STRING",
             "unit": "n/a"
          },
          {
             "name": "added",
-            "description": "The time the pallet was added to the loading area",
+            "description": "The time the package was last added to the pallet",
+            "kind": "NVP_SEQ",
+            "typedefinition" : "DataRiverTime",
+            "unit": "Time"
+         },
+         {
+            "name": "lastObserved",
+            "description": "The time the package was last observed on the pallet",
             "kind": "NVP_SEQ",
             "typedefinition" : "DataRiverTime",
             "unit": "Time"
